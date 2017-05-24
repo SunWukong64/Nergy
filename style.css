@@ -31,6 +31,7 @@ header li{
   left: 0;
   color: #fff;}
  section{
+  margin:0;
   height: 450px;
   color: #000;
 }
@@ -58,12 +59,30 @@ section li{
   height: 40%;
   width: 40%;
 }
-
+#aliados{
+  height:218px;
+}
 #aliados .img-circle{
   border: #ebc131 solid 2px;
   margin-top:30px;
   margin-bottom: 5px;
 }
-#aliados .img-circle:nth-child(1){
-
+#block3{
+  margin-top: 287px;
+  color: #7F7D78;
+  text-shadow: 1px 3px #fff;
+}
+#block4{
+  margin-top: 135px;
+  color: #ebc131;
+  text-shadow: 0px 3px #000;
+}
+.impacto{
+  background-color: #0b0c10;
+  color: #fff;
+}
+.impacto img{margin-top:80px;}
+.impacto a p{
+  color:orange;
+  text-decoration: underline;
 }
